@@ -2,11 +2,9 @@
 
 $(document).ready(function (event) {
 	
-	var Scroll_Animate = true;
-		if(Scroll_Animate == true){	
-		AOS.init();
-		Scroll_Animate = false;
-		}
+		AOS.init({
+			once: true});
+		
 
 
 	/*preloader until loads all files*/
