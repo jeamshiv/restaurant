@@ -1,0 +1,269 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Satisfy&display=swap');
+
+a, a:link, a:visited,
+a:hover, a:active{text-decoration: none;
+				color: currentColor;}
+
+
+
+		*{font-size: 16.8px;
+			color: #444444;
+			font-family: 'Poppins', sans-serif;
+			}
+
+ 
+ 	h2{	font-family: 'Satisfy', sans-serif !important;
+ 		font-size: 32px;}
+ 	h3{	font-family: 'Satisfy', sans-serif !important;
+ 		font-size: 26px;}
+ 	h4{	font-family: 'Satisfy', sans-serif !important;
+ 		font-size: 18px;}
+
+    body{overflow: hidden;}
+
+    .preloader{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background-image: url('../assets/preloader.gif');
+      background-repeat: no-repeat;
+      background-color: #fff;
+      background-position: center;
+    }
+
+    #BannerCarousel .carousel-inner 
+    .carousel-item .carousel-caption{
+      background-color: rgba(0,0,0,0.6);
+    }
+
+ 	#about .row .col-lg-6 h3{font-size: 34px;
+ 							font-weight: 400;
+ 							color: #5f5950;
+ 							line-height: 1.2;}
+ 	#about .row .col-lg-6 p{
+ 							color: #848484;}
+
+ 	#about .row .col-lg-6 p i{color: #ffb03b;
+ 							margin-right: 4px;}
+
+  .section-title h2{font-weight: 700;}
+
+ 	.section-title h2 span{color: #ffb03b;
+ 									font-size: 32px;
+ 									font-family: 'Satisfy', sans-serif;
+ 									font-weight: 700;}
+
+ 	.section-title h3 strong{color: #ffb03b;
+ 							font-size: 26px;
+ 							font-family: 'Satisfy', sans-serif;
+ 							font-weight: 700;
+ 							}
+
+ 	#why_us .row .col-lg-4 .box,
+ 	#our_services .row .col-lg-3 .box{
+ 			padding: 30px 30px;
+ 			box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+ 			transition: all ease-in-out 0.3s;
+ 	}
+
+ 	#why_us .row .col-lg-4 .box span{
+ 		display: block;
+ 		font-size: 28px;
+ 		font-weight: 700;
+ 		color: #ffcf88;
+ 	}
+
+ 	#why_us .row .col-lg-4 .box h4{
+ 		font-size: 24px;
+ 		font-weight: 600;
+ 		margin: 20px 0px;
+ 	}
+
+
+ 	#why_us .row .col-lg-4 .box:hover{
+ 		background: #ffb03b;
+ 		padding: 30px 30px 70px 30px;
+ 		box-shadow: 10px 15px 30px rgba(0,0,0,0.10);
+ 	}
+ 	#why_us .row .col-lg-4 .box:hover,
+ 	#why_us .row .col-lg-4 .box:hover span{
+ 		color: #ffffff;
+ 	}
+
+
+ 	#our_services .row .col-lg-3 .box img{height: 120px;
+ 						}
+
+ 	#our_services .row .col-lg-3 .box:hover{
+ 						transition: all ease-in-out 0.5s;
+ 						background: #fff1db;
+ 						cursor: pointer;
+ 	}
+
+
+
+ 	#menu ul li a {padding: 8px 16px 10px 16px;
+ 						margin: 0px 3px 10px 3px;
+ 						border: 2px solid #ffb03b;
+ 						border-radius: 50px;
+ 						color: #000000;
+ 						font-weight: 500;
+ 						transition: all ease-in-out 0.3s;}
+ 	#menu ul li a.active, #menu ul li a:hover{background-color: #ffb03b;
+ 						color: #ffffff;}
+
+ 	#menu .item_list h3, #menu .item_list h4 {color: #ffb03b;
+ 						font-family: 'Poppins', sans-serif !important;}
+
+
+  .single_menu {
+      position: relative;
+      margin-bottom: 75px;
+      transition: .3s;
+  }
+  .single_menu:hover img{
+      -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+
+  }
+  .single_menu img {
+      width: 33%;
+      position: absolute;
+      height: 140px;
+      -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+      clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+      transition: .3s;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+  }
+  .menu_content {
+      padding-left: 200px;
+  }
+  .menu_content h4 {
+      font-size: 25px;
+      font-weight: 300;
+      border-bottom: 1px dashed #c0392b;
+      line-height: 2;
+      text-transform: capitalize;
+  }
+  .menu_content h4 span {
+      font-size: 25px;
+      font-weight: 800;
+      float: right;
+      font-style: italic;
+      color: #ffb03b;
+  }
+  .menu_content p {
+      font-weight: 200;
+      font-size: 16px;
+      letter-spacing: 1px;
+  }
+
+
+
+ 	#testimonial .carousel{background: url('../assets/testimonials/testimonial.jpg');
+              background-position: center bottom;
+              background-size: cover;
+              background-attachment: fixed;           
+   			}
+
+   	#testimonial .carousel .carousel-item img.img-fluid{width: 120px;
+   						margin-top: 40px;
+   						border-radius: 50%;
+   						box-shadow: 0px 6px 4px rgba(255,176,59,0.6);
+   						margin-bottom: 10px;}
+
+   	#testimonial .carousel .carousel-item img.stars{
+   						width : 120px;
+   						}
+
+   	#testimonial .carousel .carousel-item i{font-size: 32px;
+   											color: #ffb03b;}
+
+    #testimonial .carousel .carousel-item{text-align: center;
+    				color: #ffffff;
+                  	min-height: 470px;
+                  	background-color: rgba(0,0,0,0.6);}
+
+    #testimonial .carousel .carousel-item p{color: #ffffff;}
+
+    .container#about, .container#why_us, .container#our_services,
+    .container-fluid#menu, .container#contact, .container-fluid#gallery, .container#book,
+    .container-lx#testimonial{margin-top: 60px; overflow: hidden;}
+
+    #totop{
+    	position: fixed;
+    	z-index: 999;
+    	right: 18px;
+    	padding: 14px 20px;
+    	bottom: 50px;
+    	background-color: #ffb03b;
+    	border-radius: 50%;
+    	display: none;
+    	cursor: pointer;
+    	box-shadow: 2px 5.66px 20px 0px rgba(136, 136, 136, 0.2);
+      transition: .4s;
+    }
+
+    #totop:hover{background-color: #ffa012;
+    				}
+
+    #pk_btn{
+      cursor: pointer;
+      padding: 10px 24px;
+      font-weight: 700;
+      border: none;
+      border-radius: 50px;
+      color: #ffffff;
+      font-size: 22px;
+      font-family: 'Poppins', sans-serif;
+      box-shadow: 0 1px 7px 0px rgba(0,0,0,0.2);
+      background-color: #ffb03b;
+      transition: 1s;
+
+    }
+    #pk_btn:hover{background: #ffa012;}
+
+    #contact a{text-decoration: none;}
+    #contact a:hover h4{color: #ffa012;}
+
+    #contact a i{color: #ffb03b;
+                font-size: 28px;
+                }
+
+
+    footer {background-color: #35322d;}
+
+    footer p, footer ul li{color: #ffffff;}
+
+
+    footer .row .col-lg-3 i{font-size: 42px;
+                            color: #ffb03b;
+                            cursor: pointer;}
+
+
+    /*for mobile phone*/
+    @media (max-width: 768px){
+       
+
+    }
+
+
+
+    /*small mobile*/
+    @media(max-width: 600px){
+      #BannerCarousel .carousel-item h3{font-size: 20px !important;}
+      #BannerCarousel .carousel-inner{height: 220px !important;} 
+      #BannerCarousel .carousel-item img{height: 220px;}
+      
+
+    }
+
+    /*smallest mobile*/
+    @media(max-width: 450px;){
+      .menu_content { padding-left: 140px !important;}
+    }
