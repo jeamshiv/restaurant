@@ -1,17 +1,14 @@
 
 
 $(document).ready(function (event) {
-	
-		AOS.init({
-			once: true});
-		
+	AOS.init();
 
 
 	/*preloader until loads all files*/
-	$(window).on('load', function(){
+	/*$(window).on('load', function(){
 		$(".preloader").fadeOut();
 		$("body").delay(350).css({'overflow':'visible'});
-	})
+	})*/
 
 
 	/*for waiting 3 seconds*/
@@ -47,5 +44,19 @@ $(document).ready(function (event) {
 		autoplay: true
 	});
 	/*slick carousel end*/
+
+
+		/*scrollto function*/
+        $("#navbarsExample03 ul li a").click(function (){
+
+        	var to = ($(this).attr('href'));
+
+            $('html, body').animate({
+            	scrollTop: $(to).offset().top
+            }, 2500);
+        });
+        /*scrollto end*/
+       
+
 	
 });
