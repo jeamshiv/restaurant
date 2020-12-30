@@ -20,21 +20,8 @@ a:hover, a:active{text-decoration: none;
  	h4{	font-family: 'Satisfy', sans-serif !important;
  		font-size: 18px;}
 
-    body{overflow: hidden;}
 
-    .preloader{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 9999;
-      background-image: url('../assets/preloader.gif');
-      background-repeat: no-repeat;
-      background-color: #fff;
-      background-position: center;
-    }
-
+   
     #BannerCarousel .carousel-inner 
     .carousel-item .carousel-caption{
       background-color: rgba(0,0,0,0.6);
@@ -193,7 +180,7 @@ a:hover, a:active{text-decoration: none;
 
     .container#about, .container#why_us, .container#our_services,
     .container-fluid#menu, .container#contact, .container-fluid#gallery, .container#book,
-    .container-lx#testimonial, footer{margin-top: 60px; overflow: hidden;}
+    .container-lx#testimonial{margin-top: 60px; overflow: hidden;}
 
     #totop{
     	position: fixed;
@@ -236,12 +223,12 @@ a:hover, a:active{text-decoration: none;
                 }
 
 
-    footer {background-color: #35322d;}
+    #footer {background-color: #35322d;}
 
-    footer p, footer ul li{color: #ffffff;}
+    #footer p, #footer ul li{color: #ffffff;}
 
 
-    footer .row .col-lg-3 i{font-size: 42px;
+    #footer .row .col-lg-3 i{font-size: 42px;
                             color: #ffb03b;
                             cursor: pointer;}
 
