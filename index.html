@@ -17,8 +17,9 @@
   	<script src="js/slick.js"></script>
   	<link rel="stylesheet" href="css/slick.css">
   	<script src="js/main.js"></script>
-  	<link href="css/aos.css" rel="stylesheet">
-  	<script src="js/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  	
 </head>
 <body>
 
@@ -71,7 +72,7 @@
 
     <!-- carousel start -->
 
-	<div class="container-lx">
+	<div class="container-lx wow bounceInDown">
 	    <div id="BannerCarousel" class="carousel slide" data-ride="carousel">
 	        <!-- Carousel indicators -->
 	        <ol class="carousel-indicators">
@@ -156,12 +157,12 @@
 
 
 
-    <div class="container os-item" id="about">
+    <div class="container wow" id="about">
       <div class="row">
-        <div class="col-lg-6" data-aos="fade-right">
+        <div class="col-lg-6 wow fadeInLeft">
         	<img src="assets/about.jpg" class="img-fluid" alt="Responsive image">
         </div>
-        <div class="col-lg-6" data-aos="fade-left">
+        <div class="col-lg-6 wow fadeInRight">
           <div class="section-title">
             <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
           </div>
@@ -196,7 +197,7 @@
       </p>
 
       <div class="row">
-        <div class="col-lg-4" data-aos="flip-left">
+        <div class="col-lg-4 wow flipInY">
           <div class="box">
             <span>01</span>
             <h4>Lorem Ipsum</h4>
@@ -205,7 +206,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-4" data-aos="flip-right">
+        <div class="col-lg-4 wow flipInX">
           <div class="box">
             <span>02</span>
             <h4>Repellat Nihil</h4>
@@ -214,7 +215,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-4" data-aos="flip-left">
+        <div class="col-lg-4 wow flipInY">
           <div class="box">
             <span>03</span>
             <h4>Ad ad velit qui</h4>
@@ -235,7 +236,7 @@
         </div>
 
         <div class="row text-center">
-          <div class="col-lg-3" data-aos="fade-up">
+          <div class="col-lg-3 wow fadeInUp">
               <div class="box">
                 <img class="mb-3" src="assets/svg/breakfast.svg" alt="Services breakfast">
                 <h3>Breakfast</h3>
@@ -244,7 +245,7 @@
                 </p>
               </div>
           </div>
-          <div class="col-lg-3" data-aos="fade-up">
+          <div class="col-lg-3 wow fadeInUp" data-wow-duration="1.4s">
             <div class="box">
               <img class="mb-3" src="assets/svg/lunch.svg" alt="Services lunch">
               <h3>Lunch</h3>
@@ -253,7 +254,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3" data-aos="fade-up">
+          <div class="col-lg-3 wow fadeInUp" data-wow-duration="1.6s">
             <div class="box">
               <img class="mb-3" src="assets/svg/dinner.svg" alt="Services dinner">
               <h3>Dinner</h3>
@@ -262,7 +263,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3" data-aos="fade-up">
+          <div class="col-lg-3 wow fadeInUp" data-wow-duration="2s">
             <div class="box">
               <img class="mb-3" src="assets/svg/custom.svg" alt="Services custom">
               <h3>Custom</h3>
@@ -281,7 +282,7 @@
           </div>
 
             <div class="row pb-4">
-              <div class="col-lg-5 offset-lg-4">
+              <div class="col-lg-12 text-center">
             <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
               <li class="nav-item">
                 <a class="nav-link active" id="show_all" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Breakfast</a>
@@ -307,7 +308,7 @@
                   <div class="row">
                     <div class="col-lg-12">
                         <div class="row">
-                          <div class="col-md-6" data-aos="fade-right">
+                          <div class="col-md-6 wow fadeInLeft" data-wow-duration="2">
                             <div class="single_menu">
                               <img src="assets/breakfast/1.jpg" alt="breakfast menu">
                               <div class="menu_content">
@@ -337,7 +338,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-6" data-aos="fade-left">
+                          <div class="col-md-6 wow fadeInRight" data-wow-duration="2">
                             <div class="single_menu">
                               <img src="assets/breakfast/5.jpg" alt="breakfast menu">
                               <div class="menu_content">
@@ -615,7 +616,7 @@
         </div>
         </div>
 
-        <div class="container-lx slick" style="cursor: grab;" data-aos="flip-right">
+        <div class="container-lx slick wow fadeInRight" style="cursor: grab;">
 
 		<div>
 			<img src="assets/offer/1.jpg" class="img-fluid" alt="Image">
@@ -675,7 +676,7 @@
         <div class="text-center section-title">
           <h2>Some photos from <span>Our Restaurant</span></h2>
         </div>
-        <div class="row text-center pb-2">
+        <div class="row text-center pb-2 wow zoomIn">
           <div class="col-lg-3"><img src="https://picsum.photos/300/300" class="img-fluid" alt="Responsive image">
           </div>
 
@@ -693,7 +694,7 @@
 
         </div><!-- row end -->
 
-        <div class="row text-center">
+        <div class="row text-center wow zoomIn">
           <div class="col-lg-3"><img src="https://picsum.photos/300/300" class="img-fluid" alt="Responsive image">
           </div>
 
@@ -714,7 +715,7 @@
       </div><!-- gallery end -->
 
 
-      <div class="container pb-4" id="book">
+      <div class="container pb-4 wow flipInY" id="book">
         <div class="text-center section-title">
           <h2>Book a <span>Table</span></h2>
         </div>
@@ -855,7 +856,7 @@
       We create Static & Dynamic Website at the Cheapest price. Do you Need A Website for Your Business ask Us?
     </p>
 
-    <form class="pt-3 pr-3 pb-4 pl-4 shadow bg-white rounded">
+    <form class="pt-3 pr-3 pb-4 pl-4 shadow bg-white rounded wow flipInX">
       <div class="form-row">
         <div class="form-group col-md-4">
           <label for="inputEmail4"></label>
@@ -885,21 +886,21 @@
     <div class="row text-center mt-4">
       <div class="col-lg-4">
         <a href="https://api.whatsapp.com/send?phone=918750303073">
-          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-whatsapp wow heartBeat" data-wow-duration="2s"></i>
           <h4>WhatsApp</h4>
           <p>8750303073</p>
         </a>
       </div>
       <div class="col-lg-4">
         <a href="tel:918750303073">
-          <i class="fas fa-phone-alt"></i>
+          <i class="fas fa-phone-alt wow heartBeat" data-wow-duration="3s"></i>
           <h4>Call Us</h4>
           <p>+91 8750303073</p>
         </a> 
       </div>
       <div class="col-lg-4">
         <a href="mailto:jeamshiv@gmail.com">
-          <i class="far fa-envelope"></i>
+          <i class="far fa-envelope wow heartBeat" data-wow-duration="4s"></i>
           <h4>Contact Us</h4>
           <p>jeamshiv@gmail.com</p>
       </a>
@@ -915,7 +916,7 @@
 
     <div class="container-fluid" id="footer">
       
-      <div class="row">
+      <div class="row wow flipInX">
         <div class="col-lg-3 text-center pt-4">
           <div class="text-center section-title">
             <h2><span>Best Restaurant</span></h2>
