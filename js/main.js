@@ -1,7 +1,8 @@
 
 
 $(document).ready(function (event) {
-	AOS.init();
+	/*AOS.init();*/
+	new WOW().init();
 
 
 	/*preloader until loads all files*/
