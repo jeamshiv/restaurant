@@ -180,7 +180,7 @@ a:hover, a:active{text-decoration: none;
 
     .container#about, .container#why_us, .container#our_services,
     .container-fluid#menu, .container#contact, .container-fluid#gallery, .container#book,
-    .container-lx#testimonial{margin-top: 60px; overflow: hidden;}
+    .container-lx#testimonial, .container-fluid#footer{margin-top: 60px; overflow: hidden;}
 
     #totop{
     	position: fixed;
