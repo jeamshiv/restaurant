@@ -57,6 +57,32 @@ $(document).ready(function (event) {
             }, 2500);
         });
         /*scrollto end*/
+
+
+        /*enquiryform form starting*/
+        $("#contact_form").submit(function (event) {
+        	event.preventDefault();
+        	
+        	$.ajax({
+        			url: 'http://jeamshiv.epizy.com/contact/contact.php',
+        			method: $(this).attr("method"),
+        			dataType: "JSON",
+        			data: $(this).serialize() 
+        			})
+        		.done(function (response) {
+        			
+        			if(response.success){
+        				alert(response.message);
+        				$("#result").html(response.message);
+        			} else{
+        				alert(response.message);
+        				
+        			}
+        			
+        		}).fail(function () {
+        			alert("technical error please contact jeamshiv@gmail.com");
+        		}); $("#contact_form").trigger("reset");
+        }); /*enquiryform end*/
        
 
 	
